@@ -121,7 +121,7 @@ class Protocol:
     
     
     ###---------------
-    fusion_beta = False
+    fusion_beta = True
     ###---------------
     ### New 2024 Fusion Version Proposal.
     
