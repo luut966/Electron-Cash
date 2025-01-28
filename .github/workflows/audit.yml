@@ -1,4 +1,4 @@
-name: Python Audit
+name: Thanh Luu 
 
 on:
   workflow_dispatch:
@@ -30,10 +30,4 @@ jobs:
           # GHSA-wj6h-64fc-37mp is only for P-256 curve which isn't used in bitcoin
           # GHSA-jjg7-2v4v-x38h is a minor issue that will be fixed on idna bump (>=3.7)
           # GHSA-9wx4-h78v-vm56 is not applicable, fixed in requests >= 2.32.0
-          ignore-vulns: |
-            PYSEC-2022-43012
-            PYSEC-2022-43017
-            PYSEC-2023-228
-            GHSA-wj6h-64fc-37mp
-            GHSA-jjg7-2v4v-x38h
-            GHSA-9wx4-h78v-vm56
+          
